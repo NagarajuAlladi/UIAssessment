@@ -12,6 +12,7 @@ import SimpleAccordion from '../Components/SimpleAccordion'
 import SimpleAccordionOne from '../Components/SimpleAccordionOne'
 import SimpleAccordionThree from '../Components/SimpleAccordionThree'
 import Subnav from '../Components/Subnav'
+import TemporaryDrawer from '../Components/TemporaryDrawer'
 import styles from '../styles/Home.module.css'
 
 
@@ -24,11 +25,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <ResponsiveDrawer/>
+      {/* <ResponsiveDrawer/> */}
 
       <ResponsiveDrawerOne/>
       
        {/* <ResponsiveDrawerTwo/> */}
+
+      {/* <TemporaryDrawer/> */}
 
       <Navbar/>
 
@@ -39,6 +42,8 @@ export default function Home() {
       <AccordianOne/>
 
       {/* <AccordianTwo/> */}
+
+      {/* <TemporaryDrawer/> */}
     </div>
   )
 }
