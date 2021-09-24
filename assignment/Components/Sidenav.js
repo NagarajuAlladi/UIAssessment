@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState} from "react";
 import AppBar from "@material-ui/core/AppBar";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import Drawer from "@material-ui/core/Drawer";
@@ -28,7 +28,7 @@ import HelpOutlineOutlinedIcon from '@material-ui/icons/HelpOutlineOutlined';
 import ListItemAvatar from '@material-ui/core/ListItemAvatar';
 import Avatar from '@material-ui/core/Avatar';
 
-import {BiMenu} from 'react-icons/bi';
+
 
 
 
@@ -36,10 +36,12 @@ import {BiMenu} from 'react-icons/bi';
 
 import styles from '../styles/Sidenav.module.css'
 
+
 function Sidenav() {
+  const [open,setOpen]=useState(true);
     return (
       <div className={styles.totalDiv}>
-    <div className={styles.outerDiv}>
+     <div className={styles.outerDiv}>
      
       <List className={styles.list}>
           <ListItemIcon>
@@ -122,6 +124,9 @@ function Sidenav() {
         </ListItem>
       </List>
 
+      </div>
+      <div className={styles.menuBar}>
+        <MenuIcon style={{fontSize:'2.5rem'}}/>
       </div>
     </div>
     )
