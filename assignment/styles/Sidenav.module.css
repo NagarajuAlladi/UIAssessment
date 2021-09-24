@@ -11,3 +11,14 @@
 .list{
     color: white;
 }
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .outerDiv{
+        display: none;
+    }
+}
+  

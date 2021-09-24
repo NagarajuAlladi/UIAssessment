@@ -28,6 +28,8 @@ import HelpOutlineOutlinedIcon from '@material-ui/icons/HelpOutlineOutlined';
 import ListItemAvatar from '@material-ui/core/ListItemAvatar';
 import Avatar from '@material-ui/core/Avatar';
 
+import {BiMenu} from 'react-icons/bi';
+
 
 
 
@@ -36,8 +38,9 @@ import styles from '../styles/Sidenav.module.css'
 
 function Sidenav() {
     return (
-        <div className={styles.outerDiv}>
-      <div/>
+      <div className={styles.totalDiv}>
+    <div className={styles.outerDiv}>
+     
       <List className={styles.list}>
           <ListItemIcon>
           <img
@@ -118,6 +121,8 @@ function Sidenav() {
           {/* <ListItemText primary="Admin"/> */}
         </ListItem>
       </List>
+
+      </div>
     </div>
     )
 }
