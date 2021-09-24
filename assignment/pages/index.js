@@ -8,6 +8,7 @@ import Navbar from '../Components/Navbar'
 import ResponsiveDrawer from '../Components/ResponsiveDrawer'
 import ResponsiveDrawerOne from '../Components/ResponsiveDrawerOne'
 import ResponsiveDrawerTwo from '../Components/ResponsiveDrawerTwo'
+import Sidenav from '../Components/Sidenav'
 import SimpleAccordion from '../Components/SimpleAccordion'
 import SimpleAccordionOne from '../Components/SimpleAccordionOne'
 import SimpleAccordionThree from '../Components/SimpleAccordionThree'
@@ -27,11 +28,13 @@ export default function Home() {
 
       {/* <ResponsiveDrawer/> */}
 
-      <ResponsiveDrawerOne/>
+      {/* <ResponsiveDrawerOne/> */}
       
        {/* <ResponsiveDrawerTwo/> */}
 
       {/* <TemporaryDrawer/> */}
+
+      <Sidenav/>
 
       <Navbar/>
 
