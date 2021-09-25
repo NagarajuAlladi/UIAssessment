@@ -134,7 +134,11 @@ function Sidenav() {
       {/* <div className={styles.menuBar}>
         <MenuIcon style={{fontSize:'2.5rem'}}/>
       </div> */}
+<<<<<<< Updated upstream
 >>>>>>> 733c2a1759b564385a082d8de289cd300b70ab54
+=======
+>>>>>>> ec991fa6d99722a4912ab3c00e2ac8308fd0a278
+>>>>>>> Stashed changes
     </div>
     )
 }
