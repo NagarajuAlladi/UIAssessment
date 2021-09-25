@@ -48,10 +48,12 @@ function Subnav() {
                     native
                     value={state.age}
                     onChange={handleChange}
-                    size="small"
+                    
                     label="Date"
+                    margin="normal"
+                    // margin="dense"
                     inputProps={{
-                    name: 'age',
+                    name: 'Date',
                     id: 'outlined-age-native-simple',
                     }}
                 >

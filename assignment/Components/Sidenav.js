@@ -48,86 +48,93 @@ function Sidenav() {
           <img
             src='/bildemp.svg'
             className={styles.bildempImage}
-            width='50'
-            height='45'
-            style={{marginLeft:'20px',marginTop:'10px',marginBottom:'20px'}}
+            width='45'
+            height='40'
+            style={{margin:'auto'}}
+            // style={{marginLeft:'20px',marginTop:'10px',marginBottom:'20px'}}
           />
           </ListItemIcon>
         <ListItem button key="home" className={styles.listItem} >
-          <ListItemIcon>
+          <ListItemIcon title='OpenSeats'>
             <LocalMallOutlinedIcon style={{color:'white'}} />
           </ListItemIcon>
-          <ListItemText primary="OpenSeats" />
+          <ListItemText primary="OpenSeats"  className={styles.textItem}/>
         </ListItem>
         <ListItem button key="Notification">
-          <ListItemIcon>
+          <ListItemIcon title='Table Talk'>
             <ModeCommentOutlinedIcon style={{color:'white'}}/>
           </ListItemIcon>
-          <ListItemText primary="Table Talk" />
+          <ListItemText primary="Table Talk"  className={styles.textItem} />
         </ListItem>
         <ListItem button key="company">
-          <ListItemIcon>
+          <ListItemIcon title='Company'>
             <BusinessOutlinedIcon style={{color:'white'}}/>
           </ListItemIcon>
-          <ListItemText primary="Company" />
+          <ListItemText primary="Company"  className={styles.textItem} />
         </ListItem>
         <ListItem button key="messages">
-          <ListItemIcon>
+          <ListItemIcon title='Messages'>
             <MailOutlineOutlinedIcon style={{color:'white'}}/>
           </ListItemIcon>
-          <ListItemText primary="Messages" />
+          <ListItemText primary="Messages"  className={styles.textItem} />
         </ListItem>
         <ListItem button key="Team">
-          <ListItemIcon>
+          <ListItemIcon title='Team'>
             <GroupOutlinedIcon style={{color:'white'}}/>
           </ListItemIcon>
-          <ListItemText primary="Team" />
+          <ListItemText primary="Team"  className={styles.textItem} />
         </ListItem>
         <ListItem button key="Notifications" >
-          <ListItemIcon>
+          <ListItemIcon title='Notifications'>
             < NotificationsNoneOutlinedIcon style={{color:'white'}}/>
           </ListItemIcon>
-          <ListItemText primary="Notifications" />
+          <ListItemText primary="Notifications"  className={styles.textItem}/>
         </ListItem>
         <ListItem button key="Refferals">
-          <ListItemIcon>
+          <ListItemIcon title='Refferals'>
             < ThumbUpAltOutlinedIcon style={{color:'white'}}/>
           </ListItemIcon>
-          <ListItemText primary="Refferals" />
+          <ListItemText primary="Refferals"  className={styles.textItem}/>
         </ListItem>
         <ListItem button key="liverooms">
-          <ListItemIcon>
+          <ListItemIcon title='LiveRooms'>
             < RoomServiceOutlinedIcon style={{color:'white'}}/>
           </ListItemIcon>
-          <ListItemText primary="LiveRooms" />
+          <ListItemText primary="LiveRooms"  className={styles.textItem}/>
         </ListItem>
         <ListItem button key="settings" >
-          <ListItemIcon>
+          <ListItemIcon title='Settings'>
             < SettingsOutlinedIcon style={{color:'white'}}/>
           </ListItemIcon>
-          <ListItemText primary="Settings" />
+          <ListItemText primary="Settings"  className={styles.textItem} />
         </ListItem>
         <ListItem button key="Help">
-          <ListItemIcon>
+          <ListItemIcon title='Help'>
             < HelpOutlineOutlinedIcon style={{color:'white'}}/>
           </ListItemIcon>
-          <ListItemText primary="Help" />
+          <ListItemText primary="Help"  className={styles.textItem} />
         </ListItem>
 
 
         <ListItem button key="Avatar">
-          <ListItemAvatar>
-            <Avatar alt="Remy Sharp" src="https://images.unsplash.com/photo-1534030347209-467a5b0ad3e6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" />
+          <ListItemAvatar className={styles.textItem}>
+            <Avatar  alt="Remy Sharp" src="https://images.unsplash.com/photo-1534030347209-467a5b0ad3e6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" />
           </ListItemAvatar>
-          <ListItemText primary="Dinesh" secondary="Admin" />
+          <ListItemText primary="Dinesh" secondary="Admin"  className={styles.textItem} />
           {/* <ListItemText primary="Admin"/> */}
         </ListItem>
       </List>
 
       </div>
+<<<<<<< HEAD
       <div className={styles.menuBar}>
         <MenuIcon style={{fontSize:'2.5rem'}}/>
       </div>
+=======
+      {/* <div className={styles.menuBar}>
+        <MenuIcon style={{fontSize:'2.5rem'}}/>
+      </div> */}
+>>>>>>> 733c2a1759b564385a082d8de289cd300b70ab54
     </div>
     )
 }

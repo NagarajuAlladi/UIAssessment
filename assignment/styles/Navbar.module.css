@@ -29,8 +29,13 @@
 
 @media only screen and (max-width: 600px) {
     .outerDiv{
+<<<<<<< HEAD
         margin-left: 0;
         margin-right: 0;
+=======
+        margin-left: 50px;
+        margin-right: 5px;
+>>>>>>> 733c2a1759b564385a082d8de289cd300b70ab54
         margin-top: 40px;
     }
   }

@@ -24,6 +24,11 @@
 
 @media only screen and (max-width: 600px) {
     .outerDiv{
+        /* display: none; */
+        /* width: 100px; */
+        width: 50px;
+    }
+    .textItem{
         display: none;
         
     }
@@ -31,6 +36,13 @@
     .menuBar{
         display: block;
         margin-right: 0;
+    }
+
+    
+    .bildempImage{
+        margin-top: 0;
+        margin-left: 0;
+        margin-bottom: 0;
     }
 }
   
