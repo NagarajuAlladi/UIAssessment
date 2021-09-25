@@ -13,12 +13,24 @@
 }
 
 
-
+.menuBar{
+    top: 0;
+    right: 0;
+    position: absolute;
+    margin-right: 5px;
+    display: none;
+}
 
 
 @media only screen and (max-width: 600px) {
     .outerDiv{
         display: none;
+        
+    }
+
+    .menuBar{
+        display: block;
+        margin-right: 0;
     }
 }
   
