@@ -29,8 +29,8 @@
 
 @media only screen and (max-width: 600px) {
     .outerDiv{
-        margin-left: 0;
-        margin-right: 0;
+        margin-left: 50px;
+        margin-right: 5px;
         margin-top: 40px;
     }
   }
